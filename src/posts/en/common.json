@@ -1,0 +1,12 @@
+{
+    "posts": [
+        {
+            "title": "Initial",
+            "body": "Initial text"
+        },
+        {
+            "title": "Second",
+            "body": "Second text"
+        }
+    ]
+}

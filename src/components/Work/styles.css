@@ -1,0 +1,10 @@
+.i18n-blog-app-work h2 {
+    color: #487eb0;
+    margin-top: 0;
+}
+
+.i18n-blog-app-work {
+    background-color: #2f3640;
+    overflow: auto;
+    padding: 20px;
+}

@@ -1,0 +1,14 @@
+.i18n-blog-app-input {
+    background: #fff;
+    border: 1px solid #718093;
+    border-radius: 2px;
+    padding: 8px 5px;
+    outline: 0;
+    width: 100%;
+    color: #273c75;
+    font-family: 'Space Mono', sans-serif;
+}
+
+.i18n-blog-app-input:focus {
+    border-color: #40739e;
+}

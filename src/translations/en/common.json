@@ -10,5 +10,7 @@
     "success": "Thanks!",
     "aboutText": "I’m Victor Abeledo, a computer systems analyst graduate and programmer. I freelance using the most suited tools for the project I’m working with. Some of my personal favorites: React, Express, Word Press, C#.\nI live and work in Rosario, one of the most beautiful cities in Argentina.\nI love traveling and learning new languages, up to this moment I know how to speak in English, Spanish and a bit of Italian, which I’m still learning in my spare time.\nI’m a proud owner of a longboard and I ride it when I can, trying not to fall off it!\nI’m available for hire for web development tasks or projects, be it backend or frontend work.",
     "aboutDescription": "Superstar full-stack developer looking for the next challenge to face",
-    "workText": "Site under development..."
+    "nataliaCuelloDesc": "Simple wordpress site for online psychological counseling.",
+    "threeCharsMin": "3 characters minimum",
+    "cuerpoAppDesc": "Progressive web app to keep track of GYM routines. Made with React and Spring boot."
 }

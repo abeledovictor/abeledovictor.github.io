@@ -5,12 +5,14 @@ import Contact from './components/Contact';
 import About from './components/About';
 import Work from './components/Work';
 import './App.css';
+import './i18n';
 
 function App() {
   const contactRef = useRef(null);
   const aboutRef = useRef(null);
   const workRef = useRef(null);
   // https://flatuicolors.com/palette/gb
+  // http://melaniedaveid.com/
   return (
     <div className="App">
       <Home contactRef={contactRef} aboutRef={aboutRef} workRef={workRef} />

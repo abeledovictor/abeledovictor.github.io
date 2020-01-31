@@ -30,7 +30,7 @@ class ContactForm extends React.Component {
           <Label>Email:</Label>
           <Input required type="email" name="email" />
           <Label>{t('message') + ':'}</Label>
-          <Input  pattern=".{3,}" required title="3 characters minimum" type="text" name="message" />
+          <Input  pattern=".{3,}" required title={t('threeCharsMin')} type="text" name="message" />
             {status === "SUCCESS" ? <p>{t('success')}</p> : <Button className="i18n-blog-app-contact-form__button">{t('send')}</Button>}
             {status === "ERROR" && <p>{t('error')}</p>}
         </form>

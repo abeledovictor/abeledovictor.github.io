@@ -8,3 +8,25 @@
     overflow: auto;
     padding: 20px;
 }
+
+.i18n-blog-app-work__icon {
+  margin-right: 10px;
+}
+
+.i18n-blog-app-work__text {
+  display: inline;
+  word-break: break-all;
+}
+
+.i18n-blog-app-work__section {
+  margin-bottom: 20px;
+}
+
+.i18n-blog-app-work__link-a {
+  color: #718093;
+  margin-right: 10px;
+}
+
+.i18n-blog-app-work__link-a:hover {
+  text-decoration: none;
+}

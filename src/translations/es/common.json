@@ -10,5 +10,7 @@
     "success": "Gracias!",
     "aboutText": "Soy Victor Abeledo, analista de sistemas y programador. Trabajo de manera independiente, usando las herramientas que más se ajusten al Proyecto que se me presente.\nAlgunas de mis herramientas favoritas: React, Express, Word Press, C#.\nVivo y trabajo en Rosario, una de las ciudades más lindas de Argentina.\nMe gusta viajar y aprender idiomas, por el momento sé hablar en inglés y estoy aprendiendo italiano en mi tiempo libre.\nTengo un longboard y cuando puedo lo saco por las calles de la ciudad, ¡intentando no caerme!\nEstoy disponible para contratación para el desarrollo de sitios web, tanto en backend como en frontend.",
     "aboutDescription": "Un programador full-stack descomunal, buscando desafíos para superar",
-    "workText": "Sitio en desarrollo..."
+    "nataliaCuelloDesc": "Sitio simple hecho en wordpress para terapia psicológica online.",
+    "threeCharsMin": "Mínimo 3 caracteres",
+    "cuerpoAppDesc": "Aplicación web progresiva (PWA) para guardar progreso en el gimnasio y rutinas. Hecha con React y Spring boot."
 }

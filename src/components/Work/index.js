@@ -42,7 +42,7 @@ function Component(props, ref) {
                 title="reactjs"
               />
               <p className="i18n-blog-app-work__text">
-              <a href="https://icuerpo.com" target="_blank" className="i18n-blog-app-work__link-a">
+              <a href="https://landing.icuerpo.com" target="_blank" className="i18n-blog-app-work__link-a">
                   icuerpo.com
               </a>
               {t('cuerpoAppDesc')}

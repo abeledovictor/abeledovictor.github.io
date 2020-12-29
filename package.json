@@ -1,41 +1,48 @@
 {
-  "homepage": "https://abeledovictor.github.io/",
-  "name": "i18n-blog",
-  "version": "0.1.0",
+  "name": "victor-abeledo-site",
   "private": true,
+  "description": "Victor abeledo site",
+  "version": "0.0.1",
+  "author": "Victor Abeledo <abeledovictor@gmail.com>",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^7.2.1",
-    "i18next-browser-languagedetector": "^4.0.1",
-    "i18next-xhr-backend": "^3.2.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-icons": "^3.8.0",
-    "react-scripts": "^4.0.0",
-    "typeface-roboto": "0.0.75",
-    "typeface-space-mono": "0.0.71"
+    "@loadable/component": "5.12.0",
+    "babel-plugin-styled-components": "1.10.6",
+    "framer-motion": "1.11.0",
+    "gatsby": "2.23.5",
+    "gatsby-cli": "2.12.54",
+    "gatsby-image": "2.4.7",
+    "gatsby-plugin-google-analytics": "2.3.4",
+    "gatsby-plugin-manifest": "2.4.11",
+    "gatsby-plugin-offline": "3.2.9",
+    "gatsby-plugin-react-helmet": "3.3.4",
+    "gatsby-plugin-sharp": "2.6.11",
+    "gatsby-plugin-styled-components": "3.3.4",
+    "gatsby-source-filesystem": "2.3.11",
+    "gatsby-transformer-sharp": "2.5.5",
+    "prop-types": "15.7.2",
+    "react": "16.12.0",
+    "react-awesome-styled-grid": "3.0.7",
+    "react-dom": "16.12.0",
+    "react-helmet": "5.2.1",
+    "react-icons": "3.10.0",
+    "react-switch": "5.0.1",
+    "simple-json-fetch": "1.0.1",
+    "styled-components": "5.1.1"
   },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "yarn run develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "2.2.0",
+    "prettier": "1.19.1"
+  }
 }
